@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ea68055a.css",
-    "main.js": "/static/js/main.e06f677d.js",
+    "main.js": "/static/js/main.432ad62f.js",
     "static/media/logo_egrocer.svg": "/static/media/logo_egrocer.4e1aa21660d0528e8bb086249de634bb.svg",
     "static/media/cover-img.jpg": "/static/media/cover-img.87a5631078e7508882ce.jpg",
     "static/media/No_Transaction.svg": "/static/media/No_Transaction.1bfb78b00b1c0429ce517dc9e7dd254f.svg",
@@ -25,10 +25,10 @@
     "index.html": "/index.html",
     "static/media/ic_razorpay.svg": "/static/media/ic_razorpay.b0d530c618aa4b31f654915e496814b9.svg",
     "main.ea68055a.css.map": "/static/css/main.ea68055a.css.map",
-    "main.e06f677d.js.map": "/static/js/main.e06f677d.js.map"
+    "main.432ad62f.js.map": "/static/js/main.432ad62f.js.map"
   },
   "entrypoints": [
     "static/css/main.ea68055a.css",
-    "static/js/main.e06f677d.js"
+    "static/js/main.432ad62f.js"
   ]
 }
