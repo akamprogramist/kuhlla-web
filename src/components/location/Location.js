@@ -276,7 +276,7 @@ const Location = (props) => {
 
   return (
     <LoadScript
-      googleMapsApiKey={"AIzaSyD7VBbLPpi3ZTW52cRzTHSQgym7iiHHngE"}
+      googleMapsApiKey={"AIzaSyA6vhB32iXp-kKBIvrIV1LeJNA4cZ6CT2w"}
       libraries={libraries}
     >
       <div className="d-flex flex-row justify-content-between header">
