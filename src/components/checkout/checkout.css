@@ -1,0 +1,286 @@
+    .lottie-content{
+        position: absolute;
+        top:0;
+    }
+    .cover {
+        height: 200px;
+    }
+
+    .cover .title {
+        position: relative;
+        bottom: 50%;
+        text-align: center;
+    }
+
+    @media (max-width:479px) {
+        .cover .title {
+            position: relative;
+            bottom: 69%;
+            text-align: center;
+        }
+    }
+
+    .cover .title h3 {
+        font-size: 2.385rem;
+        font-weight: 800;
+        color: var(--text-field-color);
+    }
+
+    .cover .title span {
+        font-size: 1.985rem;
+        font-weight: 600;
+        color: var(--text-field-color);
+    }
+
+    .cover .title span.active {
+        color: var(--secondary-color);
+    }
+
+
+    .cover img {
+        height: 100%;
+        width: 100%;
+        filter: brightness(50%);
+        z-index: -1;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center center;
+    }
+
+
+    @media (max-width:479px) {
+
+        .cover{
+            height: 115px;
+        }
+    
+    }
+
+    .checkout-container {
+        margin-top: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .checkout-container .checkout-component {
+        background: var(--second-cards-color);
+        border-radius: 8px;
+    }
+
+    .checkout-container .checkout-component .heading {
+        background: var(--secondary-color);
+        color: var(--text-field-color);
+        font-size: 1.755rem;
+        font-weight: 600;
+        padding: 8px 15px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+
+    }
+
+    .checkout-container .order-container {
+        flex-grow: 1
+    }
+
+    .checkout-container .checkout-util-container,
+    .checkout-container .order-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .checkout-container .checkout-util-container .billibg-address-wrapper,
+    .checkout-container .checkout-util-container .delivery-day-wrapper,
+    .checkout-container .checkout-util-container .delivery-time-wrapper,
+    .checkout-container .order-container .payment-wrapper,
+    .checkout-container .order-container .order-summary-wrapper {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .checkout-container .checkout-util-container .time-slot-container {
+        display: flex;
+        flex-direction: column;
+        margin: 5px 15px;
+        width: 140px;
+        height: fit-content;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .checkout-container .checkout-util-container .time-slot-container div:first-child {
+        padding: 4px 10px;
+        background: var(--secondary-color);
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        text-align: center;
+    }
+
+    .checkout-container .checkout-util-container .time-slot-container div:last-child {
+        text-align: center;
+        padding: 4px 10px;
+        font-size: 1.585rem;
+        font-weight: bold;
+    }
+
+
+    .checkout-container .order-container {
+        min-width: 320px;
+    }
+
+    .checkout-container .order-container .payment-wrapper div {
+        padding: 8px 0;
+        margin: 0 15px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.655rem;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .checkout-container .order-container .payment-wrapper div img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .checkout-container .order-container .payment-wrapper div:last-child {
+        border-bottom: none;
+    }
+
+    .checkout-container .order-container .order-summary-wrapper .summary {
+        padding: 20px;
+        font-size: 1.555rem;
+        font-weight: 700;
+    }
+
+    .checkout-container .order-container .order-summary-wrapper .summary>div {
+        padding: 5px;
+    }
+
+    .checkout-container .order-container .order-summary-wrapper .summary .total {
+        margin-top: 5px;
+        border-top: 1px solid #eee;
+    }
+
+    .checkout-container .order-container .order-summary-wrapper .summary .total .total-amount span {
+        color: var(--secondary-color);
+    }
+
+
+    .checkout-container .order-container .order-summary-wrapper .summary .button-container button {
+        background: var(--secondary-color);
+        border-radius: 8px;
+        margin-top: 30px;
+        width: 100%;
+        color: var(--text-field-color);
+        padding: 8px 0;
+        text-transform: capitalize;
+    }
+
+
+
+
+
+    @media screen and (max-width: 64rem) {
+        .checkout-container {
+            flex-direction: column;
+        }
+    }
+
+
+    /* react calender */
+    .react-calendar {
+        font-family: inherit;
+        font-size: 1.745rem;
+        border: none;
+        min-width: 100%;
+    }
+
+    .react-calendar__navigation__prev-button,
+    .react-calendar__navigation__next-button {
+        font-size: 5rem;
+    }
+
+    .react-calendar__navigation__label {
+        font-size: 2.435rem;
+        font-weight: bold;
+    }
+
+    .react-calendar__navigation__next2-button,
+    .react-calendar__navigation__prev2-button {
+        display: none;
+    }
+
+    .react-calendar__month-view__weekdays__weekday abbr[title] {
+        font-size: 2rem;
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+
+    .react-calendar__month-view__days {
+        margin-top: 20px;
+    }
+
+    .react-calendar__month-view__days__day--neighboringMonth {
+        opacity: 0;
+    }
+
+    .react-calendar__tile--now:enabled {
+        background: var(--secondary-color);
+
+    }
+
+    .stripe-container {
+
+        background: var(--second-cards-color)
+    }
+
+    .stripe-container .heading {
+    color: var(--secondary-color);
+        font-size: 2.555rem;
+        font-weight: bolder;
+    }
+
+    .stripe-container button.close-stripe{
+        background:none;
+        font-size: 2.455rem;
+    }
+
+    .stripe-container .pay-stripe{
+        background: var(--secondary-color);
+        color: var(--text-field-color);
+        width: 100%;
+        font-size: 2.355rem;
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 5px;
+
+    }
+
+    .FormRow div div input {
+        border: 5px solid black;
+    }
+
+    .success_modal .success_body{
+        font-size: 24px;
+        border: 0;
+        text-align: center;
+    }
+    .success_modal .success_header{
+        border: 0;
+    }
+    .success_modal .success_footer{
+        border: 0;
+        justify-content: center;
+    }
+    .success_modal .success_footer .checkout_btn{
+        width: 70%;
+        font-size: 14px;
+        z-index: 9;
+        background-color: var(--secondary-color);
+        border: 0;
+        font-weight: 700;
+    }

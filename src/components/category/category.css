@@ -1,0 +1,211 @@
+.category_section {
+    margin: 50px auto;
+    /* padding: 0 !important; */
+
+}
+
+.category_section .container {
+    border-radius: 8px;
+
+}
+
+.category_section_header {
+    margin-bottom: 25px;
+    background-color: var(--second-cards-color);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.category-container {
+    margin: 0 10px 0 0;
+}
+
+.slick-prev-category,
+.next-arrow-category {
+    position: absolute;
+    top: 0 !important;
+    right: 0 !important;
+    left: auto !important;
+    /* additional styling if needed */
+}
+
+.category-container .card {
+    padding: 3em 1.5em;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 1.2s ease-in-out;
+
+}
+
+.category-container .card:hover {
+    transform: none !important;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #51bd88;
+}
+
+.card:hover .card-title {
+    color: var(--secondary-color);
+
+}
+
+.category-container .card:hover .category_image {
+    /* box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05); */
+    transform: scale(1.07);
+}
+
+.category-container .card .category_image {
+    width: 120px;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    border: 1px solid #ddd;
+    height: 120px;
+    margin-bottom: 15px;
+    transition: transform 0.7s ease-in-out;
+}
+
+.category-container .card .card-body {}
+
+.category-container .card .card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.categoties {
+
+    background: var(--second-cards-color);
+    width: 100%;
+}
+
+
+.categoties .category-container button {
+    background: none;
+    padding: 5px;
+    text-align: start;
+    width: 100%;
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.categoties button:hover {
+    background-color: rgb(207, 206, 206);
+}
+
+.categoties button img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+.category_button:hover {
+    background: var(--secondary-color);
+    color: var(--text-field-color);
+}
+.category_button {
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--text-field-color)!important;
+}
+
+/* #allcategories{
+    display: flex;
+    flex-direction: column;
+} */
+
+#allcategories .cover {
+    height: 200px;
+}
+
+#allcategories .cover img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+    background-size: cover;
+    background-position: center center;
+}
+
+#allcategories .cover .page-heading {
+    position: relative;
+    bottom: 100px;
+    text-align: center
+}
+
+
+#allcategories .cover .page-heading h5 {
+    color: var(--text-field-color);
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+#allcategories .cover .page-heading p {
+    color: var(--text-field-color);;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#allcategories .cover .page-heading p span {
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+
+#allcategories .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+#allcategories .content .card {
+    border-radius: 30px;
+    padding-top: 10px;
+}
+
+
+#allcategories .content .card img {
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+}
+
+#allcategories .content .card .card-body {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: var(--secondary-color);
+}
+#allcategories .content .card .card-body:hover p{
+background-color:var(--secondary-color-light);
+color: var(--text-field-color) !important;
+}
+
+
+
+#allcategories .content .card:hover .card-body p {
+    background-color: var(--secondary-color)!important;
+}
+
+#allcategories .content .card .card-body p {
+    font-size: 1.745rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

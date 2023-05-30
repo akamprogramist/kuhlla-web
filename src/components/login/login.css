@@ -1,0 +1,129 @@
+.login h5 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.login .header button {
+    background: none;
+    font-size: 3rem;
+}
+
+.login .body img {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+
+.login .body span {
+    font-size: 1.5rem;
+    color: var(--sub-text-color);
+    text-align: center;
+
+}
+
+.login .body span p {
+    color: var(--secondary-color);
+}
+
+.login .body span a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.login .body .error-msg {
+    font-size: 1.6rem;
+    float: right;
+    color: rgba(189, 26, 26, 0.781);
+}
+
+.login .body .PhoneInput {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.login .body .PhoneInput .PhoneInputInput {
+    color: var(--primary-color);
+    
+    border-radius: 5px;
+    padding: 15px;
+    background: #141a1f0d;
+    border: 1px solid #141A1F80;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+
+.login .body .PhoneInput .PhoneInputCountry {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    padding: 5px;
+    border-radius: 8px;
+    background: #141a1f0d;
+    border: 1px solid #141A1F80;
+    color: var(--primary-color);
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.login .body .PhoneInput .PhoneInputCountry select {
+    width: 55px;
+    background-color: var(--container-bg);
+}
+
+.login .body .PhoneInput .PhoneInputCountry img {
+    height: 100%;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.login .body .PhoneInput .PhoneInputCountry .PhoneInputCountryIcon {
+   
+}
+
+.login button[type=submit] {
+    margin-top: 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    padding: 15px;
+    color: var(--second-cards-color);
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: var(--secondary-color);
+}
+.login button[type=submit]:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-field-color);
+    opacity: 1;
+}
+.login .body .otp-container {
+    margin: 2rem 4%;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login .body input[type=password]{
+    background: rgba(155, 151, 151, 0.205);
+
+}
+
+.login .body .otp-container > input{
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 75rem) {
+    .login .body .form {
+        width: 100%;
+    }
+
+}

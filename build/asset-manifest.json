@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea68055a.css",
+    "main.js": "/static/js/main.e06f677d.js",
+    "static/media/logo_egrocer.svg": "/static/media/logo_egrocer.4e1aa21660d0528e8bb086249de634bb.svg",
+    "static/media/cover-img.jpg": "/static/media/cover-img.87a5631078e7508882ce.jpg",
+    "static/media/No_Transaction.svg": "/static/media/No_Transaction.1bfb78b00b1c0429ce517dc9e7dd254f.svg",
+    "static/media/404.svg": "/static/media/404.5518ccfa3b856cf41cff2a8c10fd407b.svg",
+    "static/media/No_Notification.svg": "/static/media/No_Notification.dffc59edc45c5ab344baf276e7e01c89.svg",
+    "static/media/Empty_Cart.svg": "/static/media/Empty_Cart.706ee1b6dbaade1945f932e2c817fab6.svg",
+    "static/media/Stripe.png": "/static/media/Stripe.f1fcd7a6838508ddb81b.png",
+    "static/media/paystack.png": "/static/media/paystack.8a4c3b4a46ae4843ae9e.png",
+    "static/media/logout.png": "/static/media/logout.efaa84f84d1d3eb81ab3.png",
+    "static/media/logout2.png": "/static/media/logout2.e4cc7f9a23079bc82dbd.png",
+    "static/media/ic_cod.svg": "/static/media/ic_cod.97b90a046eaecb5d633198745b541eb5.svg",
+    "static/media/No_Orders.svg": "/static/media/No_Orders.1554a17822fab4aefaecdd5d6af172bc.svg",
+    "static/media/ic_paytm.svg": "/static/media/ic_paytm.6a004cde184f17ed8e614efb722a41f8.svg",
+    "static/media/ic_stripe.svg": "/static/media/ic_stripe.5163c5337e25685b6cdcb81dcf3229b8.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/ic_paypal.svg": "/static/media/ic_paypal.2617db06b9a1ed4945c6e9d0f236427e.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/ic_paystack.svg": "/static/media/ic_paystack.92d3f4274d0df068a719357176705998.svg",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/ic_razorpay.svg": "/static/media/ic_razorpay.b0d530c618aa4b31f654915e496814b9.svg",
+    "main.ea68055a.css.map": "/static/css/main.ea68055a.css.map",
+    "main.e06f677d.js.map": "/static/js/main.e06f677d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea68055a.css",
+    "static/js/main.e06f677d.js"
+  ]
+}
